@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pritom Chowdhury — AI Engineer</title>
+  <meta name="description" content="A focused portfolio for AI engineering, retrieval systems, and useful automation.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--ink:#10251d;--muted:#5c6f66;--paper:#f5f1e8;--lime:#c8f169;--line:#d6ddcf;--white:#fffdf8}
+    *{box-sizing:border-box} body{margin:0;background:var(--paper);color:var(--ink);font-family:'Space Grotesk',sans-serif;line-height:1.5}
+    .wrap{width:min(1120px,calc(100% - 40px));margin:auto}.top{display:flex;justify-content:space-between;padding:28px 0;border-bottom:1px solid var(--line);font:14px 'DM Mono',monospace}.mark{font-weight:500}.status{color:#3d664b}.hero{padding:92px 0 76px;display:grid;grid-template-columns:1.1fr .9fr;gap:80px}.eyebrow{font:13px 'DM Mono',monospace;letter-spacing:.12em;text-transform:uppercase;color:#4e705a}.hero h1{font-size:clamp(48px,7vw,88px);line-height:.98;letter-spacing:-.06em;margin:18px 0 26px;max-width:720px}.hero h1 span{color:#5e7a36}.hero p{font-size:19px;color:var(--muted);max-width:590px}.card{background:var(--white);border:1px solid var(--line);padding:28px;box-shadow:10px 10px 0 var(--lime)}.card h2{margin:0 0 10px;font-size:24px}.card p{font-size:15px;color:var(--muted);margin-top:0}.field{margin:17px 0}.field label{display:block;font:12px 'DM Mono',monospace;margin-bottom:7px;text-transform:uppercase}.field input,.field textarea{width:100%;border:1px solid #bfcabf;background:#fffefb;padding:13px;font:15px 'Space Grotesk',sans-serif;color:var(--ink)}.field textarea{min-height:120px;resize:vertical}.field input:focus,.field textarea:focus{outline:2px solid var(--lime);border-color:var(--ink)}button{border:0;background:var(--ink);color:white;padding:14px 18px;font:600 15px 'Space Grotesk',sans-serif;cursor:pointer;width:100%}button:hover{background:#294d3b}.hp{position:absolute;left:-5000px}.proof{border-top:1px solid var(--line);padding:34px 0 90px;display:grid;grid-template-columns:1fr 1fr;gap:20px}.proof article{border-left:3px solid var(--lime);padding-left:18px}.proof h3{margin:0 0 6px}.proof p{margin:0;color:var(--muted)}footer{border-top:1px solid var(--line);padding:20px 0 40px;color:var(--muted);font:12px 'DM Mono',monospace}@media(max-width:760px){.hero{grid-template-columns:1fr;gap:45px;padding-top:58px}.proof{grid-template-columns:1fr}.top{font-size:12px}}
+  </style>
+</head>
+<body>
+  <header class="wrap top"><div class="mark">PC / AI ENGINEERING</div><div class="status">● AVAILABLE FOR CONVERSATIONS</div></header>
+  <main class="wrap">
+    <section class="hero">
+      <div><div class="eyebrow">Portfolio / 2026</div><h1>Useful systems,<br><span>not just demos.</span></h1><p>I build practical AI tools and retrieval workflows that turn messy information into a clear next action.</p></div>
+      <div class="card" id="contact"><h2>Start a conversation</h2><p>Tell me what you are trying to make. This form is live and routes submissions through a free form backend.</p>
+        <form action="https://formsubmit.co/coderpritom03@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New portfolio contact — Pritom Chowdhury">
+          <input type="hidden" name="_next" value="https://pritam6304.github.io/rag-internship-project/thank-you.html">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off">
+          <div class="field"><label for="name">Your name</label><input id="name" name="name" required autocomplete="name"></div>
+          <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required autocomplete="email"></div>
+          <div class="field"><label for="message">What are you working on?</label><textarea id="message" name="message" required></textarea></div>
+          <button type="submit">Send the brief →</button>
+        </form>
+      </div>
+    </section>
+    <section class="proof"><article><h3>Retrieval systems</h3><p>Search, chunking, and context assembly designed around the question a user actually needs answered.</p></article><article><h3>Small automations</h3><p>Simple interfaces that make one repeated task disappear instead of adding another dashboard.</p></article></section>
+  </main>
+  <footer class="wrap">The contact form is powered by FormSubmit.co and deployed as a static GitHub Pages site.</footer>
+</body>
+</html>
